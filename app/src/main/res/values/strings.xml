@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">TesteBNB</string>
+
+    <!-- Info Intro -->
+    <string name="info_intro_mensagem">
+        <![CDATA[
+         <h2>Leia com atenção !</H2>
+
+         <p>Este teste foi feito sem utilizar MVP , LiveDate , Koin , Corroutine. Sei Utilizar estas tecnologias
+            mas devido ao tempo e os detalhes que o teste pediu , não os implementei.</p>
+
+         <p>Não vou acrecentar mais não ao código. Avaliem da forma que acharem melhor.</p>
+
+         <p>Já conheço o BNB , principalmente o CrediAmigo , eles utilizam bastante SharedPreference por isso eu usei em ez de usar DataStore, que seria meelhor.</p>
+
+          <p>Já fiz este tipo de teste para divesar empresas. Uma delas é o Banco Carrefour , que não me passou um retorno para o teste. Por isso na entrevista (se houver)
+             diga a palavra "renancsdev" , que eu vou saber se viram pelo menos o aplicativo rodando. Caso não falem esta palavra , vou saber que não avaliaram o código
+             e não estão interessados , assim economiza tempo para mim para a Basis e para ocliente.
+          </p>
+
+          <p>O código vai ficar disponível para download por uma semana. Após o prazo removerei a opção de download no GitHub</p>
+        ]]>
+    </string>
+
+     <!-- TextView -->
+    <string name="info_bnb">Cliente</string>
+
+    <!-- Botão -->
+    <string name="info_botao_aceito">Entendi</string>
+
+    <!-- Cadastro de usuários -->
+
+    <!-- Botão -->
+    <string name="botao_main_pesquisar">Pesquisar</string>
+    <string name="botao_main_cadastar_usuario">Novo usuário</string>
+
+    <!-- Titulos -->
+    <string name="textview_main_endereco_titulo">Usuários</string>
+
+    <!-- TextInputLayout -->
+    <string name="cad_main_pesquisar_nome">Pesquisar por nome</string>
+
+
+    <!-- Caixa de Diálogo -->
+
+    <!-- Botão -->
+    <string name="botao_alerta_remover">Remover</string>
+
+    <!-- TextView -->
+    <string name="textview_alerta_titulo_mensagem">Deseja realmente excluir este endereço?</string>
+    <string name="textview_alerta_mensagem">essa ação é irreversível</string>
+
+
+    <!-- RecyclerView Main -->
+
+    <!-- TextView -->
+    <string name="recyclermain_texto">Endereço Registrado</string>
+
+    <!-- Botão -->
+    <string name="recyclermain_botao_excluir">X</string>
+
+    <!-- ImagemView -->
+    <string name="recyclermain_imagem_content">Imagem main exemplo</string>
+
+
+    <!-- Main  -->
+
+    <!-- TextView -->
+    <string name="main_texto_usuarios_encontrados">Nenhuma pessoa encontrada, favor cadastrar alguém !</string>
+    <string name="main_texto_pesquisar_usuarios">Pesquisar por nome</string>
+
+    <!-- Botão -->
+    <string name="main_botao_atualizar_lista_usuarios">Atualizar</string>
+
+    <!-- RecyclerView Main - item -->
+
+    <!-- TextView -->
+    <string name="recyclermain_item_texto_nome">Nome</string>
+    <string name="recyclermain_item_texto_cpf_cnpj">CPF/CNPJ</string>
+    <string name="recyclermain_item_texto_telefone">Telefone</string>
+    <string name="recyclermain_item_texto_email">Email</string>
+    <string name="recyclermain_item_texto_end_res">Endereço Residencial</string>
+    <string name="recyclermain_item_texto_end_com">Endereço Comercial</string>
+    <string name="recyclermain_item_texto_eventos">Ações</string>
+
+    <string name="recyclermain_item_texto_nome_label">-- Nome --</string>
+    <string name="recyclermain_item_texto_cpf_cnpj_label">-- CPF/CNPJ --</string>
+    <string name="recyclermain_item_texto_telefone_label">-- Telefone --</string>
+    <string name="recyclermain_item_texto_email_label">-- Email --</string>
+    <string name="recyclermain_item_texto_end_res_label">-- Endereço Residencial --</string>
+    <string name="recyclermain_item_texto_end_com_label">-- Endereço Comercial --</string>
+
+    <!-- Botão -->
+    <string name="recyclermain_item_botao_editar">Editar</string>
+    <string name="recyclermain_item_botao_excluir">Excluir</string>
+
+    <!-- Cadastro de usuários -->
+
+    <!-- TextInputLayout -->
+    <string name="cad_usuario_nome">Nome*</string>
+    <string name="cad_usuario_cpf"> Cpf*</string>
+    <string name="cad_usuario_cnpj">Cnpj*</string>
+    <string name="cad_usuario_telefone">Telefone</string>
+    <string name="cad_usuario_email">Email</string>
+
+    <!-- Botão -->
+    <string name="botao_usuario_delete_end_pessoa">X</string>
+    <string name="botao_usuario_cad_end_pessoa_fisica">Adicionar\nEndereço pf</string>
+    <string name="botao_usuario_cad_end_pessoa_juridica">Adicionar\nEndereço jur</string>
+    <string name="botao_usuario_cad_salvar_pessoa">Salvar</string>
+    <string name="botao_usuario_cad_content_description">Imagem de ìcone</string>
+
+    <!-- Titulos -->
+    <string name="textview_usuario_cad_titulo">Inserir novo usuário</string>
+    <string name="textview_usuario_cad_titulo_endereco">Endereços</string>
+
+    <!-- TextView -->
+    <string name="textview_usuario_cad_enereco_pf">Endereço de Pessoa Física</string>
+    <string name="textview_usuario_cad_enereco_juridio_dom">Endereço de Pessoa Jurídica Domiciliar</string>
+    <string name="textview_usuario_cad_enereco_juridio_com">Endereço de Pessoa Jurídica Comercial</string>
+
+
+    <!-- Cadastro de endereço -->
+
+    <!-- TextInputLayout -->
+    <string name="cad_usuario_end_cep">CEP</string>
+    <string name="cad_usuario_end_logradouro"> Logradouro</string>
+    <string name="cad_usuario_end_numero">Número</string>
+    <string name="cad_usuario_end_cidade">Cidade</string>
+    <string name="cad_usuario_end_estado">Estado</string>
+
+
+    <!-- Titulos -->
+    <string name="textview_usuario_cad_end_titulo">Inserir novo Endereço</string>
+
+
+    <!-- Spinners -->
+    <string-array name="tipoPessoa">
+        <item>Tipo de pessoa*</item>
+        <item>Física</item>
+        <item>Jurídica</item>
+    </string-array>
+    <string-array name="tipoEnderecoComercial">
+        <item>Tipo de endereco comercial</item>
+        <item>Comércio</item>
+        <item>Escritório</item>
+        <item>Consultoria</item>
+    </string-array>
+    <string-array name="tipoEndereco">
+        <item>Tipo de Endereço</item>
+        <item>Residencial</item>
+        <item>Comercial</item>
+    </string-array>
+
+</resources>

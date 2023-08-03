@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_incluir_usuario_endereco"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/recyclermain_imagem_content"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_incluir_usuario_endereco"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_incluir_usuario_endereco"
+            tools:srcCompat="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/tv_incluir_usuario_endereco"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/recyclermain_texto"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_incluir_usuario_endereco"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_incluir_usuario_endereco_excluir"
+            style="@style/Theme.materialbutton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:background="@color/bnb_secundary"
+            android:text="@string/recyclermain_botao_excluir"
+            android:textColor="@color/bnb_text"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_incluir_usuario_endereco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_incluir_usuario_endereco" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

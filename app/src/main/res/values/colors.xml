@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bnb_main">#AD1C26</color>
+    <color name="bnb_secundary">#F98300</color>
+    <color name="bnb_text">#333030</color>
+    <color name="bnb_text2">#5D5A5A</color>
+    <color name="bnb_text_hint">#716B6B</color>
+
+    <color name="basis_main">#FF000000</color>
+    <color name="basis_secundary">#9C4306</color>
+    <color name="basis_texto">#CBC7C0</color>
+</resources>
