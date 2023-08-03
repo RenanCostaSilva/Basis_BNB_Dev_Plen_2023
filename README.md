@@ -5,10 +5,10 @@
 Teste para o cargo de desenvolvedor Android Pleno , na basis , Para o cliente BNB(Banco do Nordeste)
 
 ## Imagens da Aplicação
-![mobile 1](https://github.com/RenanCostaSilva/Sky_Accenture_API/blob/master/imagem1.jpg)
-![mobile 1](https://github.com/RenanCostaSilva/Sky_Accenture_API/blob/master/imagem2.jpg)
-![mobile 1](https://github.com/RenanCostaSilva/Sky_Accenture_API/blob/master/imagem3.jpg)
-![mobile 1](https://github.com/RenanCostaSilva/Sky_Accenture_API/blob/master/imagem4.jpg)
+![mobile 1](https://github.com/RenanCostaSilva/TesteBNB_Desenv_Pleno_2023/blob/master/1.png)
+![mobile 2](https://github.com/RenanCostaSilva/TesteBNB_Desenv_Pleno_2023/blob/master/2.png)
+![mobile 3](https://github.com/RenanCostaSilva/TesteBNB_Desenv_Pleno_2023/blob/master/3.png)
+![mobile 4](https://github.com/RenanCostaSilva/TesteBNB_Desenv_Pleno_2023/blob/master/4.png)
 
 ## SDK
 minSdk: 29 / alvo: 33
